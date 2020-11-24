@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
+    second:
+      variants:
+      - keywords: OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON OFFSETUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON
+        passType: 0
+      - keywords: ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON ROTATEUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON
+        passType: 0
+      - keywords: BILBOARD_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON
+        passType: 0
+      - keywords: BILBOARDY_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CLIPPING_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CLIPPING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: CUSTOMBLENDING_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CUSTOMBLENDING_ON OFFSETUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON CUSTOMBLENDING_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON CUSTOMBLENDING_ON
+        passType: 0
+      - keywords: CUSTOMBLENDING_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CUSTOMBLENDING_ON ROTATEUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON CUSTOMBLENDING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON CUSTOMBLENDING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CUSTOMBLENDING_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON CUSTOMBLENDING_ON
+        passType: 0
+      - keywords: BILBOARD_ON CUSTOMBLENDING_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON CUSTOMBLENDING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CUSTOMBLENDING_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CUSTOMBLENDING_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CUSTOMBLENDING_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CUSTOMBLENDING_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON OFFSETUV_ON
+          ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CUSTOMBLENDING_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CLIPPING_ON CUSTOMBLENDING_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CUSTOMBLENDING_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CLIPPING_ON CUSTOMBLENDING_ON OFFSETUV_ON
+          ROTATEUV_ON
+        passType: 0
+      - keywords: CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON CUSTOMZTEST_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON CUSTOMZTEST_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: BILBOARD_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON CUSTOMZTEST_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON CUSTOMZTEST_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON CUSTOMZTEST_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CLIPPING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON BILBOARD_ON CLIPPING_ON CUSTOMZTEST_ON OFFSETUV_ON
+          ROTATEUV_ON
+        passType: 0
+      - keywords: CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: CUSTOMBLENDING_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+          ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: BILBOARD_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARD_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+          ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON ROTATEUV_ON
+        passType: 0
+      - keywords: BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON OFFSETUV_ON
+          ROTATEUV_ON
+        passType: 0
+      - keywords: ATLAS_ON BILBOARDY_ON CLIPPING_ON CUSTOMBLENDING_ON CUSTOMZTEST_ON
+          OFFSETUV_ON ROTATEUV_ON
+        passType: 0
